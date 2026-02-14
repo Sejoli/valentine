@@ -786,6 +786,12 @@
 
     /* ---- Mobile ---- */
     @media (max-width: 768px) {
+        .moments-page {
+            padding: 1rem;
+            padding-top: 70px;
+            padding-bottom: 80px;
+        }
+
         .timeline-line {
             left: 24px;
         }
@@ -805,6 +811,11 @@
             transform: translateX(-30px);
         }
 
+        .timeline-item.visible.left,
+        .timeline-item.visible.right {
+            transform: translateX(0);
+        }
+
         .timeline-dot {
             left: 24px;
             width: 40px;
@@ -816,15 +827,15 @@
         }
 
         .moments-title {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
 
         .timeline-card {
-            padding: 1rem;
+            padding: 0.85rem;
         }
 
         .card-photo-wrapper {
-            margin: -1rem -1rem 0.75rem -1rem;
+            margin: -0.85rem -0.85rem 0.75rem -0.85rem;
             border-radius: 12px 12px 0 0;
             max-height: 150px;
         }
@@ -833,13 +844,17 @@
             height: 150px;
         }
 
+        .card-description {
+            font-size: 0.85rem;
+        }
+
         .photo-grid {
             grid-template-columns: repeat(2, 1fr);
             gap: 0.5rem;
         }
 
         .gallery-title {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
         }
 
         .lightbox-nav {
@@ -849,7 +864,54 @@
         }
 
         .lightbox-image-container {
-            max-width: 80vw;
+            max-width: 90vw;
+        }
+
+        .lightbox-image-container img {
+            max-height: 65vh;
+        }
+
+        .next-button {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.85rem;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .moments-title {
+            font-size: 1.2rem;
+        }
+
+        .timeline-item.left,
+        .timeline-item.right {
+            padding-left: 50px;
+        }
+
+        .timeline-dot {
+            left: 16px;
+            width: 34px;
+            height: 34px;
+        }
+
+        .timeline-line {
+            left: 16px;
+        }
+
+        .dot-emoji {
+            font-size: 0.9rem;
+        }
+
+        .card-photo {
+            height: 120px;
+        }
+
+        .card-photo-wrapper {
+            max-height: 120px;
+        }
+
+        .photo-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.4rem;
         }
     }
 </style>

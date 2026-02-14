@@ -270,23 +270,52 @@
     }
 
     @media (max-width: 640px) {
+        .letter-page {
+            padding: 1rem;
+            padding-top: 70px;
+            padding-bottom: 60px;
+        }
         .letter-paper {
-            padding: 1.5rem;
+            padding: 1.25rem;
         }
         .letter-text {
-            font-size: 1.1rem;
+            font-size: 1rem;
+            line-height: 1.7;
         }
         .letter-greeting {
-            font-size: 1.35rem;
+            font-size: 1.2rem;
+        }
+        .letter-decoration-top,
+        .letter-decoration-bottom {
+            font-size: 0.75rem;
         }
         .envelope {
-            width: 160px;
-            height: 112px;
+            width: 150px;
+            height: 105px;
         }
         .envelope-top {
-            border-left: 80px solid transparent;
-            border-right: 80px solid transparent;
-            border-top: 56px solid #f43f5e;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-top: 52px solid #f43f5e;
+        }
+        .envelope-heart {
+            font-size: 2rem;
+        }
+        .next-button {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.85rem;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .letter-paper {
+            padding: 1rem;
+        }
+        .letter-text {
+            font-size: 0.9rem;
+        }
+        .letter-greeting {
+            font-size: 1.1rem;
         }
     }
 </style>

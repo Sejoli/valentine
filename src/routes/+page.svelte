@@ -227,18 +227,42 @@
     }
 
     @media (max-width: 640px) {
+        .landing {
+            padding: 1rem;
+            padding-top: 70px;
+        }
         .giant-heart {
             font-size: 3.5rem;
         }
         .greeting-text {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
         .name-text {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
         }
         .cta-button {
-            padding: 0.85rem 2rem;
+            padding: 0.85rem 1.75rem;
+            font-size: 0.95rem;
+        }
+        .cta-hint {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .giant-heart {
+            font-size: 2.5rem;
+        }
+        .greeting-text {
             font-size: 1rem;
+        }
+        .name-text {
+            font-size: 1.2rem;
+        }
+        .cta-button {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.85rem;
+            gap: 0.5rem;
         }
     }
 </style>

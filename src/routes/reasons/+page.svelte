@@ -366,18 +366,61 @@
     }
 
     @media (max-width: 640px) {
+        .reasons-page {
+            padding: 1rem;
+            padding-top: 70px;
+            padding-bottom: 80px;
+        }
         .reasons-title {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
+        }
+        .reasons-subtitle {
+            font-size: 0.85rem;
+        }
+        .counter {
+            font-size: 0.8rem;
+            padding: 0.4rem 1rem;
         }
         .cards-grid {
             grid-template-columns: repeat(2, 1fr);
             gap: 0.75rem;
         }
         .flip-card {
-            height: 190px;
+            height: 180px;
+        }
+        .card-number {
+            font-size: 1.5rem;
         }
         .card-description {
             font-size: 0.75rem;
+        }
+        .card-title {
+            font-size: 0.95rem;
+        }
+        .card-emoji {
+            font-size: 2rem;
+        }
+        .celebration-text {
+            font-size: 1.05rem;
+        }
+        .next-button {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.85rem;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .reasons-title {
+            font-size: 1.1rem;
+        }
+        .flip-card {
+            height: 160px;
+        }
+        .card-number {
+            font-size: 1.3rem;
+        }
+        .card-description {
+            font-size: 0.7rem;
         }
     }
 </style>

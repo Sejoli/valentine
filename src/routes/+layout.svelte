@@ -55,7 +55,6 @@
 	main {
 		position: relative;
 		z-index: 1;
-		padding-top: 60px;
 	}
 
 	.page-transition {

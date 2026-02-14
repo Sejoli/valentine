@@ -365,24 +365,64 @@
     }
 
     @media (max-width: 640px) {
+        .surprise-page {
+            padding: 1rem;
+            padding-top: 70px;
+        }
         .reveal-text {
-            font-size: 2rem;
-        }
-        .reveal-emoji {
-            font-size: 1.5rem;
-        }
-        .celebrate-title {
             font-size: 1.8rem;
         }
+        .reveal-emoji {
+            font-size: 1.3rem;
+        }
+        .reveal-content {
+            gap: 0.5rem;
+        }
+        .celebrate-title {
+            font-size: 1.5rem;
+        }
         .celebrate-message {
-            font-size: 1.05rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
         }
         .big-heart {
-            font-size: 3.5rem;
+            font-size: 3rem;
         }
         .love-button {
-            padding: 0.9rem 2rem;
-            font-size: 0.95rem;
+            padding: 0.85rem 1.75rem;
+            font-size: 0.9rem;
+        }
+        .footer-text {
+            font-size: 1rem;
+        }
+        .footer-divider {
+            font-size: 0.75rem;
+        }
+        .count-digit {
+            font-size: 4rem;
+        }
+        .countdown-number {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .celebrate-title {
+            font-size: 1.3rem;
+        }
+        .celebrate-message {
+            font-size: 0.85rem;
+        }
+        .big-heart {
+            font-size: 2.5rem;
+        }
+        .love-button {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.85rem;
+        }
+        .count-digit {
+            font-size: 3rem;
         }
     }
 </style>
