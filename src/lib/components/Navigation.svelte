@@ -138,6 +138,14 @@
     }
 
     @media (max-width: 768px) {
+        .nav-inner {
+            padding: 0.5rem 1rem;
+        }
+
+        .nav-logo {
+            font-size: 1.25rem;
+        }
+
         .nav-hamburger {
             display: flex;
         }

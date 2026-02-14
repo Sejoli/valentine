@@ -367,60 +367,97 @@
 
     @media (max-width: 640px) {
         .reasons-page {
-            padding: 1rem;
-            padding-top: 70px;
+            padding: 0.75rem;
+            padding-top: 65px;
             padding-bottom: 80px;
         }
+        .reasons-header {
+            margin-bottom: 1.5rem;
+        }
         .reasons-title {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
+            line-height: 1.3;
         }
         .reasons-subtitle {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
+            margin-bottom: 0.75rem;
         }
         .counter {
-            font-size: 0.8rem;
-            padding: 0.4rem 1rem;
+            font-size: 0.75rem;
+            padding: 0.35rem 0.85rem;
+            gap: 0.3rem;
         }
         .cards-grid {
             grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
+            gap: 0.6rem;
         }
         .flip-card {
-            height: 180px;
+            height: 200px;
+        }
+        .flip-card-front,
+        .flip-card-back {
+            padding: 0.75rem;
+            gap: 0.25rem;
+            overflow: hidden;
         }
         .card-number {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
-        .card-description {
-            font-size: 0.75rem;
+        .card-question {
+            font-size: 1.1rem;
         }
-        .card-title {
-            font-size: 0.95rem;
+        .card-tap {
+            font-size: 0.65rem;
         }
         .card-emoji {
-            font-size: 2rem;
+            font-size: 1.5rem;
+        }
+        .card-title {
+            font-size: 0.8rem;
+        }
+        .card-description {
+            font-size: 0.65rem;
+            line-height: 1.4;
+        }
+        .celebration {
+            padding: 1.25rem;
+            margin-top: 1.5rem;
         }
         .celebration-text {
-            font-size: 1.05rem;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
         }
         .next-button {
-            padding: 0.75rem 1.5rem;
-            font-size: 0.85rem;
+            padding: 0.7rem 1.25rem;
+            font-size: 0.8rem;
         }
     }
 
     @media (max-width: 380px) {
         .reasons-title {
-            font-size: 1.1rem;
+            font-size: 1.05rem;
+        }
+        .cards-grid {
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
         }
         .flip-card {
             height: 160px;
         }
-        .card-number {
-            font-size: 1.3rem;
+        .flip-card-front,
+        .flip-card-back {
+            padding: 1rem;
+            gap: 0.35rem;
+        }
+        .card-emoji {
+            font-size: 1.8rem;
+        }
+        .card-title {
+            font-size: 0.9rem;
         }
         .card-description {
-            font-size: 0.7rem;
+            font-size: 0.75rem;
+            line-height: 1.5;
         }
     }
 </style>
